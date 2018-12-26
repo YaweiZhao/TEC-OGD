@@ -1,0 +1,147 @@
+\begin{thebibliography}{21}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Bedi et~al.(2018)Bedi, Sarma, and Rajawat]{Bedi:2018te}
+A.~S. Bedi, P.~Sarma, and K.~Rajawat.
+\newblock Tracking moving agents via inexact online gradient descent algorithm.
+\newblock \emph{IEEE Journal of Selected Topics in Signal Processing},
+  12\penalty0 (1):\penalty0 202--217, Feb 2018.
+
+\bibitem[{Besbes, Omar} et~al.(2015){Besbes, Omar}, {Gur, Yonatan}, and {Zeevi,
+  Assaf J}]{Besbes:2015gb}
+{Besbes, Omar}, {Gur, Yonatan}, and {Zeevi, Assaf J}.
+\newblock {Non-Stationary Stochastic Optimization.}
+\newblock \emph{Operations Research}, 63\penalty0 (5):\penalty0 1227--1244,
+  2015.
+
+\bibitem[Boyd and Vandenberghe(2004)]{Boyd:2004}
+S.~Boyd and L.~Vandenberghe.
+\newblock \emph{Convex Optimization}.
+\newblock Cambridge University Press, New York, NY, USA, 2004.
+\newblock ISBN 0521833787.
+
+\bibitem[Chiang et~al.(2012)Chiang, Yang, Lee, Mahdavi, Lu, Jin, and
+  Zhu]{Chiang2012Online}
+C.~K. Chiang, T.~Yang, C.~J. Lee, M.~Mahdavi, C.~J. Lu, R.~Jin, and S.~Zhu.
+\newblock Online optimization with gradual variations.
+\newblock \emph{Journal of Machine Learning Research}, 23, 2012.
+
+\bibitem[Duchi et~al.(2011)Duchi, Hazan, and Singer]{Duchi:2011}
+J.~Duchi, E.~Hazan, and Y.~Singer.
+\newblock Adaptive subgradient methods for online learning and stochastic
+  optimization.
+\newblock \emph{Journal of Machine Learning Research (JMLR)}, 12:\penalty0
+  2121--2159, 2011.
+
+\bibitem[Garber(2018)]{Garber:2018wf}
+D.~Garber.
+\newblock {Fast Rates for Online Gradient Descent Without Strong Convexity via
+  Hoffman's Bound}.
+\newblock \emph{arXiv.org}, 2018.
+
+\bibitem[Hall and Willett(2015)]{Hall:2015ct}
+E.~C. Hall and R.~M. Willett.
+\newblock {Online Convex Optimization in Dynamic Environments.}
+\newblock \emph{IEEE Journal of Selected Topics in Signal Processing},
+  9\penalty0 (4):\penalty0 647--662, 2015.
+
+\bibitem[Hazan(2016)]{Hazan2016Introduction}
+E.~Hazan.
+\newblock Introduction to online convex optimization.
+\newblock \emph{Foundations and Trends in Optimization}, 2\penalty0
+  (3-4):\penalty0 157--325, 2016.
+
+\bibitem[Hazan and Seshadhri(2007)]{Hazan2007Adaptive}
+E.~Hazan and C.~Seshadhri.
+\newblock Adaptive algorithms for online decision problems.
+\newblock \emph{Electronic Colloquium on Computational Complexity}, 14, 2007.
+
+\bibitem[Jadbabaie et~al.(2015)Jadbabaie, Rakhlin, Shahrampour, and
+  Sridharan]{Jadbabaie:2015wg}
+A.~Jadbabaie, A.~Rakhlin, S.~Shahrampour, and K.~Sridharan.
+\newblock {Online Optimization : Competing with Dynamic Comparators}.
+\newblock In \emph{Proceedings of International Conference on Artificial
+  Intelligence and Statistics (AISTATS)}, pages 398--406, 2015.
+
+\bibitem[Joulani et~al.(2017)Joulani, Gy{\"o}rgy, and
+  Szepesv{\'a}ri]{Joulani:2017un}
+P.~Joulani, A.~Gy{\"o}rgy, and C.~Szepesv{\'a}ri.
+\newblock {A Modular Analysis of Adaptive (Non-)Convex Optimization - Optimism,
+  Composite Objectives, and Variational Bounds.}
+\newblock In \emph{Proceedings of International Conference on Algorithmic
+  Learning Theory (ALT)}, 2017.
+
+\bibitem[Lei et~al.(2017)Lei, Shi, and Guo]{Lei:2017:CUO}
+Y.~Lei, L.~Shi, and Z.-C. Guo.
+\newblock Convergence of unregularized online learning algorithms.
+\newblock \emph{Journal of Machine Learning Research}, 18\penalty0
+  (1):\penalty0 6269--6301, Jan. 2017.
+
+\bibitem[Mokhtari et~al.(2016)Mokhtari, Shahrampour, Jadbabaie, and
+  Ribeiro]{Mokhtari:2016jz}
+A.~Mokhtari, S.~Shahrampour, A.~Jadbabaie, and A.~Ribeiro.
+\newblock {Online optimization in dynamic environments: Improved regret rates
+  for strongly convex problems}.
+\newblock In \emph{Proceedings of IEEE Conference on Decision and Control
+  (CDC)}, pages 7195--7201. IEEE, 2016.
+
+\bibitem[Moon et~al.(2010)Moon, Li, Chu, Liao, Zheng, and Chang]{Moon:2010}
+T.~Moon, L.~Li, W.~Chu, C.~Liao, Z.~Zheng, and Y.~Chang.
+\newblock Online learning for recency search ranking using real-time user
+  feedback.
+\newblock In \emph{Proceedings of ACM International Conference on Information
+  and Knowledge Management (CIKM)}, CIKM '10, pages 1501--1504, New York, NY,
+  USA, 2010. ACM.
+
+\bibitem[Shalev-Shwartz(2012)]{ShalevShwartz:2012dz}
+S.~Shalev-Shwartz.
+\newblock {Online Learning and Online Convex Optimization}.
+\newblock \emph{Foundations and Trends{\textregistered} in Machine Learning},
+  4\penalty0 (2):\penalty0 107--194, 2012.
+
+\bibitem[Song et~al.(2008)Song, Zhuang, Li, Zhao, Li, Lee, and
+  Giles]{Song:2008:RAT}
+Y.~Song, Z.~Zhuang, H.~Li, Q.~Zhao, J.~Li, W.-C. Lee, and C.~L. Giles.
+\newblock Real-time automatic tag recommendation.
+\newblock In \emph{Proceedings of ACM SIGIR Conference on Research and
+  Development in Information Retrieval}, SIGIR '08, pages 515--522, New York,
+  NY, USA, 2008.
+
+\bibitem[Tarantola(2004)]{Tarantola:2004:IPT}
+A.~Tarantola.
+\newblock \emph{Inverse Problem Theory and Methods for Model Parameter
+  Estimation}.
+\newblock Society for Industrial and Applied Mathematics, Philadelphia, PA,
+  USA, 2004.
+\newblock ISBN 0898715725.
+
+\bibitem[Yang et~al.(2016)Yang, Zhang, Jin, and Yi]{Yang:2016ud}
+T.~Yang, L.~Zhang, R.~Jin, and J.~Yi.
+\newblock {Tracking Slowly Moving Clairvoyant - Optimal Dynamic Regret of
+  Online Learning with True and Noisy Gradient.}
+\newblock In \emph{Proceedings of the 34th International Conference on Machine
+  Learning (ICML)}, 2016.
+
+\bibitem[Zhang et~al.(2017)Zhang, Yang, Yi, Jin, and Zhou]{Zhang:2016wl}
+L.~Zhang, T.~Yang, J.~Yi, R.~Jin, and Z.-H. Zhou.
+\newblock {Improved Dynamic Regret for Non-degenerate Functions}.
+\newblock In \emph{Proceedings of Neural Information Processing Systems
+  (NIPS)}, 2017.
+
+\bibitem[Zhu and Xu(2015)]{Zhu:2015tr}
+C.~Zhu and H.~Xu.
+\newblock {Online Gradient Descent in Function Space}.
+\newblock \emph{arXiv.org}, 2015.
+
+\bibitem[Zinkevich(2003)]{Zinkevich:2003}
+M.~Zinkevich.
+\newblock Online convex programming and generalized infinitesimal gradient
+  ascent.
+\newblock In \emph{Proceedings of International Conference on Machine Learning
+  (ICML)}, pages 928--935, 2003.
+
+\end{thebibliography}

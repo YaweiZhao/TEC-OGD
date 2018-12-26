@@ -1,0 +1,63 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: arxiv-tevc-bare_jrnl_compsoc.aux
+The style file: abbrvnat.bst
+Database file #1: ../reference.bib
+Repeated entry---line 234 of file ../reference.bib
+ : @article{Hall:2015ct
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 245 of file ../reference.bib
+ : @article{ShalevShwartz:2012dz
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 373 of file ../reference.bib
+ : @inproceedings{Jadbabaie:2015wg
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 380 of file ../reference.bib
+ : @article{Zhu:2015tr
+ :                    ,
+I'm skipping whatever remains of this entry
+You've used 21 entries,
+            2773 wiz_defined-function locations,
+            735 strings with 8778 characters,
+and the built_in function-call counts, 10694 in all, are:
+= -- 946
+> -- 638
+< -- 14
++ -- 216
+- -- 195
+* -- 855
+:= -- 1614
+add.period$ -- 67
+call.type$ -- 21
+change.case$ -- 126
+chr.to.int$ -- 21
+cite$ -- 42
+duplicate$ -- 501
+empty$ -- 869
+format.name$ -- 224
+if$ -- 2273
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 23
+newline$ -- 115
+num.names$ -- 84
+pop$ -- 266
+preamble$ -- 1
+purify$ -- 107
+quote$ -- 0
+skip$ -- 392
+stack$ -- 0
+substring$ -- 403
+swap$ -- 78
+text.length$ -- 5
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 221
+warning$ -- 0
+while$ -- 90
+width$ -- 0
+write$ -- 285
+(There were 4 error messages)

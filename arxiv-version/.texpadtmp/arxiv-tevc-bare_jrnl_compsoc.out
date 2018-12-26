@@ -1,0 +1,12 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Related work}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Regrets of OGD in the static environment.}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Regrets of OGD in the dynamic environment.}{section.2}% 4
+\BOOKMARK [1][-]{section.3}{Preliminaries}{}% 5
+\BOOKMARK [2][-]{subsection.3.1}{Notations and assumptions}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.2}{Algorithm}{section.3}% 7
+\BOOKMARK [1][-]{section.4}{A new theoretical analysis framework}{}% 8
+\BOOKMARK [2][-]{subsection.4.1}{High-level thought}{section.4}% 9
+\BOOKMARK [2][-]{subsection.4.2}{Meta framework}{section.4}% 10
+\BOOKMARK [1][-]{section.5}{Improved regret and query complexity for strongly convex ft}{}% 11
+\BOOKMARK [1][-]{section.6}{Conclusion}{}% 12
