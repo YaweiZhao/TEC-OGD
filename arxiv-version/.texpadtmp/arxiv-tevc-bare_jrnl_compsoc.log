@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.1.10)  25 DEC 2018 19:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.1.10)  27 DEC 2018 20:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -395,7 +395,7 @@ LaTeX Info: Redefining \cite on input line 694.
 \c@Assumption=\count136
 \c@Proposition=\count137
 \c@Remark=\count138
- (/Users/yawei/Documents/Submission/TEC-OGD/arxiv-version/.texpadtmp/arxiv-tevc-bare_jrnl_compsoc.aux)
+ (/Users/yawei/Documents/Submission/TEC-OGD/TEC-OGD/arxiv-version/.texpadtmp/arxiv-tevc-bare_jrnl_compsoc.aux)
 \openout1 = `arxiv-tevc-bare_jrnl_compsoc.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
@@ -465,7 +465,7 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 63.
 LaTeX Info: Redefining \pageref on input line 63.
 LaTeX Info: Redefining \nameref on input line 63.
- (/Users/yawei/Documents/Submission/TEC-OGD/arxiv-version/.texpadtmp/arxiv-tevc-bare_jrnl_compsoc.out) (/Users/yawei/Documents/Submission/TEC-OGD/arxiv-version/.texpadtmp/arxiv-tevc-bare_jrnl_compsoc.out)
+ (/Users/yawei/Documents/Submission/TEC-OGD/TEC-OGD/arxiv-version/.texpadtmp/arxiv-tevc-bare_jrnl_compsoc.out) (/Users/yawei/Documents/Submission/TEC-OGD/TEC-OGD/arxiv-version/.texpadtmp/arxiv-tevc-bare_jrnl_compsoc.out)
 \@outlinefile=\write3
 \openout3 = `arxiv-tevc-bare_jrnl_compsoc.out'.
 
@@ -600,14 +600,14 @@ LaTeX Warning: Command \textcircled invalid in math mode on input line 578.
 
 LaTeX Warning: Command \textcircled invalid in math mode on input line 578.
 
-[10] (/Users/yawei/Documents/Submission/TEC-OGD/arxiv-version/.texpadtmp/arxiv-tevc-bare_jrnl_compsoc.bbl [11]
+[10] (/Users/yawei/Documents/Submission/TEC-OGD/TEC-OGD/arxiv-version/.texpadtmp/arxiv-tevc-bare_jrnl_compsoc.bbl [11]
 LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 103.
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 658.
  [12]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 658.
- (/Users/yawei/Documents/Submission/TEC-OGD/arxiv-version/.texpadtmp/arxiv-tevc-bare_jrnl_compsoc.aux)
+ (/Users/yawei/Documents/Submission/TEC-OGD/TEC-OGD/arxiv-version/.texpadtmp/arxiv-tevc-bare_jrnl_compsoc.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 658.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 658.
 Package rerunfilecheck Info: File `arxiv-tevc-bare_jrnl_compsoc.out' has not changed.
@@ -616,14 +616,14 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 658.
  ) 
 Here is how much of TeX's memory you used:
  10478 strings out of 493089
- 159294 string characters out of 6134842
- 287298 words of memory out of 5000000
+ 159398 string characters out of 6134842
+ 287287 words of memory out of 5000000
  13582 multiletter control sequences out of 15000+600000
  25220 words of font info for 132 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  36i,16n,39p,1099b,460s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on /Users/yawei/Documents/Submission/TEC-OGD/arxiv-version/.texpadtmp/arxiv-tevc-bare_jrnl_compsoc.pdf (12 pages, 342161 bytes).
+Output written on /Users/yawei/Documents/Submission/TEC-OGD/TEC-OGD/arxiv-version/.texpadtmp/arxiv-tevc-bare_jrnl_compsoc.pdf (12 pages, 342104 bytes).
 PDF statistics:
  474 PDF objects out of 1000 (max. 8388607)
  427 compressed objects within 5 object streams

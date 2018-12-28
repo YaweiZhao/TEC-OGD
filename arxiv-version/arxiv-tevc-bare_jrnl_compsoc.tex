@@ -304,7 +304,7 @@ Use Assumption \ref{assumption_f_t_strongly_convex}. Let $\v_{t+1} = \Pi_{\Xcal}
 \end{Lemma} According to Lemma \ref{lemma_linear_x}, when $f_t$'s are strongly convex, $0< \rho< 1 $ (See  Lemma \ref{lemma_linear_x}). When $f_t$'s are just convex, $\rho = 1$ (that is, $\alpha \rightarrow 0$). Recall that $R^{\mathrm{m}}_T$ depends on the strongly convex assumption of $f_t$'s. Equipped by Lemma \ref{lemma_linear_x},  we find that as long as $R^{\mathrm{m}}_T$ is further bounded, we are able to provide an upper bound for the dynamic regret.
 
 
-\section{Improved regret and query complexity for strongly convex $f_t$} 
+\section{Improved query complexity for strongly convex $f_t$} 
 \label{sect_dynamic_regret_strongly_convex}
 
 
@@ -319,11 +319,11 @@ R_T^{\ast} \le \min \{J_1, J_2\},
 \begin{align}
 \nonumber
 J_1 = & \frac{(1-\rho + 2\rho V)\lrincir{ \beta + \frac{\beta^2}{\alpha} }}{1-\rho} \Scal_T^{\ast}   + \lrincir{ \beta + \frac{\beta^2}{\alpha} }\lrnorm{\x_1^{\ast} - \x_1}^2   + \frac{1}{ 2\lrincir{ \beta + \frac{\beta^2}{\alpha} } }\sum\limits_{t=1}^{T} \lrnorm{\nabla f_t(\x_t^{\ast})}^2 \\ \nonumber
-\lesssim & \Ocal\lrincir{ \Scal_T^{\ast} + \sum\limits_{t=1}^{T} \lrnorm{\nabla f_t(\x_t^{\ast})}^2 },
+\lesssim & \Scal_T^{\ast} + \sum\limits_{t=1}^{T} \lrnorm{\nabla f_t(\x_t^{\ast})}^2,
 \end{align} and 
 \begin{align}
 \nonumber
-J_2 = & \frac{G\lrnorm{\x_1-\x_1^{\ast}}}{1-\rho} \Pcal_T^{\ast} + \frac{G}{1-\rho} \lesssim  \Ocal\lrincir{ \Pcal_T^{\ast} }.
+J_2 = & \frac{G\lrnorm{\x_1-\x_1^{\ast}}}{1-\rho} \Pcal_T^{\ast} + \frac{G}{1-\rho} \lesssim  \Pcal_T^{\ast}.
 \end{align}
 
 \end{Theorem} 
@@ -332,15 +332,15 @@ J_2 = & \frac{G\lrnorm{\x_1-\x_1^{\ast}}}{1-\rho} \Pcal_T^{\ast} + \frac{G}{1-\r
 Suppose $\sum\limits_{t=1}^{T} \lrnorm{\nabla f_t(\x_t^{\ast})}^2 = \Ocal \lrincir{\Scal_T^{\ast}} $. According to Theorem \ref{theorem_s_sc_regret}, the dynamic regret of OGD is bounded by 
 \begin{align}
 \nonumber
-R_T^{\ast} \le \min \{J_1, J_2\} \lesssim \Ocal\lrincir{ \min \{\Pcal_T^{\ast}, \Scal_T^{\ast} \} }.
+R_T^{\ast} \le \min \{J_1, J_2\} \lesssim \min \{\Pcal_T^{\ast}, \Scal_T^{\ast} \}.
 \end{align}
 
 \end{Corollary} 
 \begin{proof}
-Recall Assumption \ref{assumption_bounded_distance_x}, and we have $\lrnorm{\x_1^{\ast} - \x_1}^2  \le R$. When $\sum\limits_{t=1}^{T} \lrnorm{\nabla f_t(\x_t^{\ast})}^2 = \Ocal \lrincir{\Scal_T^{\ast}} $, we have $J_1 \lesssim \Ocal\lrincir{\Scal_T^{\ast}}$. Similarly, we have $J_2\le \frac{G\sqrt{R}}{1-\rho} \Pcal_T^{\ast} + \frac{G}{1-\rho} \lesssim \Ocal\lrincir{\Pcal_T^{\ast}}$. Thus, we finally obtain
+Recall Assumption \ref{assumption_bounded_distance_x}, and we have $\lrnorm{\x_1^{\ast} - \x_1}^2  \le R$. When $\sum\limits_{t=1}^{T} \lrnorm{\nabla f_t(\x_t^{\ast})}^2 = \Ocal \lrincir{\Scal_T^{\ast}} $, we have $J_1 \lesssim \Scal_T^{\ast}$. Similarly, we have $J_2\le \frac{G\sqrt{R}}{1-\rho} \Pcal_T^{\ast} + \frac{G}{1-\rho} \lesssim \Pcal_T^{\ast}$. Thus, we finally obtain
 \begin{align}
 \nonumber
-R_T^{\ast} \le \min \{J_1, J_2\} \lesssim \Ocal\lrincir{ \min\{\Pcal_T^{\ast}, \Scal_T^{\ast} \} }.
+R_T^{\ast} \le \min \{J_1, J_2\} \lesssim \min\{\Pcal_T^{\ast}, \Scal_T^{\ast} \}.
 \end{align} It completes the proof.
 
 \end{proof}
@@ -359,10 +359,10 @@ Use Assumptions \ref{assumption_f_t_strongly_convex}, \ref{assumption_bounded_gr
 \end{align} where 
 \begin{align}
 \nonumber
-J_3 = & 2G \Pcal_T^{\ast} + 2G \lrnorm{\x_1 - \x_1^\ast} \lesssim \Ocal\lrincir{\Pcal_T^{\ast}}, \\ \nonumber
+J_3 = & 2G \Pcal_T^{\ast} + 2G \lrnorm{\x_1 - \x_1^\ast} \lesssim \Pcal_T^{\ast}, \\ \nonumber
 J_4 = & \frac{1}{2\sigma} \sum_{t=1}^T \lrnorm{\nabla f_t(\x_t^\ast)}^2 +(\beta + \sigma) \lrincir{ 2\Scal_T^{\ast}  +  \lrnorm{\x_1 - \x_1^\ast}^2 } \\ \nonumber
-\lesssim & \Ocal\lrincir{\Scal_T^{\ast} + \sum_{t=1}^T \lrnorm{\nabla f_t(\x_t^\ast)}^2}.
-\end{align} Furthermore, suppose $\sum\limits_{t=1}^{T} \lrnorm{\nabla f_t(\x_t^{\ast})}^2 = \Ocal \lrincir{\Scal_T^{\ast}} $, and we thus have $\tilde{R}_T^{\ast} \lesssim \Ocal\lrincir{ \min \{ \Pcal_T^{\ast}, \Scal_T^{\ast} \} }$.
+\lesssim & \Scal_T^{\ast} + \sum_{t=1}^T \lrnorm{\nabla f_t(\x_t^\ast)}^2.
+\end{align} Furthermore, suppose $\sum\limits_{t=1}^{T} \lrnorm{\nabla f_t(\x_t^{\ast})}^2 = \Ocal \lrincir{\Scal_T^{\ast}} $, and we thus have $\tilde{R}_T^{\ast} \lesssim  \min \{ \Pcal_T^{\ast}, \Scal_T^{\ast} \}$.
 \end{Lemma}
 
 Comparing with Lemma \ref{lemma_previous_result_sc_regret}, our new result achieves the same bound of the regret. But, OGD, i.e., Algorithm \ref{algo_ogd}, only requires one query of gradient for every iteration, which does not depend on $\kappa$, and thus outperforms Algorithm \ref{algo_omgd} by reduing the query complexity significantly. The following remarks hightlight the advantages of our analysis framework.
